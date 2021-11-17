@@ -3,6 +3,7 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 #from sklearn.externals import joblib
+import joblib
 import pickle
 
 df= pd.read_csv("spam.csv", encoding="latin-1")
